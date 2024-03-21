@@ -48,7 +48,7 @@ function App(props) {
       const result = await axios(url);
       setState(result.data);
     };
-    fetchData();npm run build
+    fetchData();
     // eslint-disable-next-line
   }, [search]);
   
@@ -64,7 +64,7 @@ function App(props) {
             align="center"
             className={classes.title}
           >
-            EKS DEMO Blog version 1
+            EKS DEMO Blog VeRsIoN 1
           </Typography>
           {new Date().toLocaleTimeString()}
         </Toolbar>
